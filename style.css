@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+.navication {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  overflow: hidden;
+  height: 400px;
+  width: 700px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+.img > img {
+  width: 52px;
+}
+.left-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.left-link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.left-link-title > p {
+  font-size: 2rem;
+  color: rgb(12, 12, 31);
+}
+.left-link-title > h3 {
+  font-size: 1.5 rem;
+  color: rgb(41, 41, 45);
+}
+.left-link-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(231, 231, 239);
+}
+.other-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.apps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.header-left-nav {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.tools-option {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.6rem;
+  justify-content: space-around;
+}
+.tools-option a {
+  text-decoration: none;
+  color: black;
+}
+.left-link:hover {
+  background-color: rgb(236, 233, 233);
+  transition: 0.1s;
+}
+.tools-option a:hover {
+  color: rgb(96, 94, 92);
+}
